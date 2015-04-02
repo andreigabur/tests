@@ -4,10 +4,10 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		int[] e = {1, 2, 3, 4, 5, 6, 7, 5, 4, 3};
+		int[] e1 = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+		int[] e2 = {1, 2, 3, 6, 5, 8};
 		
-		System.out.println(PrefixSet.solution(e));
-		System.out.println(DiscIntersection.solution(e));		
+		System.out.println(TapeEquilibrium.solution(e2));
 		
 	}
 

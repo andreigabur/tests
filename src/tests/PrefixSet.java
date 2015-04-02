@@ -3,11 +3,12 @@ package tests;
 import java.util.HashSet;
 
 public class PrefixSet {
+	
     public static int solution(int[] A) {
     	
         int n = A.length;
         
-        HashSet B = new HashSet();             
+        HashSet<Integer> B = new HashSet<Integer>();             
         int result = 0;
         
         for (int i=0; i<n; i++) {

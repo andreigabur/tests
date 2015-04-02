@@ -1,6 +1,7 @@
 package tests;
 
 public class DiscIntersection {
+	
     public static int solution(int[] A) {
     	
     	int result = 0;
